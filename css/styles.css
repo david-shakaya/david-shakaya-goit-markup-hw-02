@@ -1,3 +1,7 @@
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus {
   color: #2196F3;
+}
+a {
+  text-decoration: none;
 }
