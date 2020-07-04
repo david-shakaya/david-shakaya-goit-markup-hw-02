@@ -17,7 +17,7 @@ body {
 /*Логотип*/
 
 .logo {
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -66,7 +66,7 @@ color: #757575;
 }
 
 .btn-hero {
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 text-align: center;
@@ -76,4 +76,17 @@ background-color: #2196F3;
 }
 
 /*Преймущества*/
+.title-benefits {
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
 
+.description-benefits {
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
