@@ -14,12 +14,14 @@ body {
   list-style: none
 }
 
+/*Логотип*/
+
 .logo {
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000;
 }
@@ -28,6 +30,7 @@ color: #000000;
   color: #2196F3;;
 }
 
+/* Меню*/
 .menu-link {
   font-weight: 500;
   line-height: 1.14;
@@ -40,6 +43,8 @@ color: #000000;
   color: #2196F3;
 }
 
+/*Контакты*/
+
 .header-adress-link {
  font-weight: 500;
  line-height: 1.14;
@@ -47,3 +52,28 @@ color: #000000;
 
 color: #757575;
 }
+
+/*Герой*/
+
+.title {
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ /* Цвет текста должен быть белый но пока оставлю по умолчанию*/
+}
+
+.btn-hero {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+/*Преймущества*/
+
