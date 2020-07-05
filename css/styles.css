@@ -141,9 +141,8 @@ color: var(--title-gray-words-color);
 }
 
 /* Подвал сайта*/
-/* Временное свойство background-color, что бы был виден белый текст адреса*/
 .footer {
-  background-color: var(--title-gray-words-color)
+  background-color:#2F303A;
 }
 
 .addres-footer-map {
@@ -163,4 +162,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text-join-in {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-light-words-color);
 }
