@@ -35,6 +35,7 @@ letter-spacing: 0.03em;
 color: #000000;
 }
 
+
 .logo-color {
   color: var(--accent-color);
 }
@@ -120,3 +121,46 @@ color: var(--title-light-words-color);
 background-color: var(--title-gray-words-color);
 }
 
+/* Команда*/
+.subtitle-team {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-dark-words-color);
+}
+
+.text-team {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-gray-words-color);
+}
+
+/* Подвал сайта*/
+/* Временное свойство background-color, что бы был виден белый текст адреса*/
+.footer {
+  background-color: var(--title-gray-words-color)
+}
+
+.addres-footer-map {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--title-light-words-color);
+}
+
+.addres-footer-mail,
+.addres-footer-tel{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
