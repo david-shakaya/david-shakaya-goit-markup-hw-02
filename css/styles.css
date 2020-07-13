@@ -17,6 +17,8 @@ body {
 .link,
 .link-logo {
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .list {
@@ -31,8 +33,9 @@ body {
   margin-right: auto;
 }
 
-ul {
+ul, h1 {
   padding: 0px;
+  margin: 0px;
 }
 
 /*Логотип*/
@@ -126,10 +129,13 @@ color: var(--title-gray-words-color);
 }
 
 .btn-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--title-light-words-color);
 background-color: var(--accent-color);
