@@ -23,7 +23,28 @@ body {
   list-style: none
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  padding: 0px;
+}
+
 /*Логотип*/
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .logo {
+  margin-right: 85px;
+}
 
 .logo {
 font-family: var(--secondary-font);
@@ -41,6 +62,15 @@ color: #000000;
 }
 
 /* Меню*/
+.menu {
+  display: flex;
+}
+
+.menu-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
 .menu-link {
   font-weight: 500;
   line-height: 1.14;
@@ -54,6 +84,20 @@ color: #000000;
 }
 
 /*Контакты*/
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header-adress {
+  display: flex;
+  align-items: center;
+}
+
+.header-adress-list:not(:last-child) {
+  margin-right: 30px;
+}
 
 .header-adress-link {
  font-weight: 500;
