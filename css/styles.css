@@ -33,7 +33,7 @@ body {
   margin-right: auto;
 }
 
-ul, h1 {
+ul, h1, h2, h3 {
   padding: 0px;
   margin: 0px;
 }
@@ -142,6 +142,27 @@ background-color: var(--accent-color);
 }
 
 /*Преймущества*/
+.benefits .list-benefits {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-item-benefits:not(:last-child) {
+  margin-right: 30px;
+}
+
+.list-item-img {
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+
+}
+
 .title-benefits {
 font-size: 14px;
 font-weight: 700;
