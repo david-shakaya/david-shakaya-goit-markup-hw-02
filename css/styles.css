@@ -113,8 +113,12 @@ color: var(--title-gray-words-color);
 /*временное свойство для лучшего восприятия белого текста*/
 .hero-section {
   background-color: #2F303A;
-  width: 1600;
-  height: 800;
+  width: 1311px;
+  height: 600px;
+  }
+
+  .hero-wrapper {
+    padding-top: 200px;
   }
 
 .hero-title {
@@ -200,7 +204,7 @@ margin: 0px;
 .title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.16px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-dark-words-color);
