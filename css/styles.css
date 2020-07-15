@@ -14,11 +14,15 @@ body {
   color: var(--title-dark-words-color);
 }
 
-.link,
+.header-wrapper .link,
 .link-logo {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .list {
@@ -323,7 +327,7 @@ display: flex;
 /* Подвал сайта*/
 
 .footer {
-  height: 251px;
+  height: 252px;
   background-color:#2F303A;
 }
 
@@ -344,13 +348,14 @@ display: flex;
   margin-top: 20px;
 }
 
-.addres-footer,
-.addres-footer-tel {
-  padding: 0px;
+.list-item-addres-footer {
   margin-top: 9px;
 }
 
+
 .footer-text-join-in-wrapper {
+  width: 206px;
+  height: 80px;
   margin-top: 72px;
   margin-left: 69px;
 }
