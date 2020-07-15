@@ -320,13 +320,39 @@ display: flex;
   padding-bottom: 94px;
 }
 
-
-
-
-
 /* Подвал сайта*/
+
 .footer {
+  height: 251px;
   background-color:#2F303A;
+}
+
+.footer-addres-join-wrapper {
+  display: flex;
+}
+
+.addres-wrapper {
+  margin-top: 60px;
+}
+
+.addres-wrapper .logo {
+  padding: 0px;
+}
+
+.addres-footer-map {
+ padding: 0px;
+  margin-top: 20px;
+}
+
+.addres-footer,
+.addres-footer-tel {
+  padding: 0px;
+  margin-top: 9px;
+}
+
+.footer-text-join-in-wrapper {
+  margin-top: 72px;
+  margin-left: 69px;
 }
 
 .addres-footer-map {
